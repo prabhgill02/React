@@ -1,0 +1,31 @@
+{
+  "name": "episode2",
+  "version": "1.0.0",
+  "description": "react pkg",
+  "keywords": [
+    "react",
+    "prabh"
+  ],
+  "author": "Prabh",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@swc/core-win32-x64-msvc": "^1.16.22",
+    "parcel": "^2.16.4"
+  },
+  "allowScripts": {
+    "@swc/core@1.16.22": true,
+    "@parcel/watcher@2.6.0": true,
+    "lmdb@2.8.5": true,
+    "msgpackr-extract@3.0.7": true
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ] 
+}
